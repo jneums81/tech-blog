@@ -1,9 +1,9 @@
 :root {
-    --primary: #ccdad1;
-    --secondary: #dce9d5;
-    --tertiary: #788585;
-    --light-dark: #a1a0a1;
-    --dark: #3b2320;
+    --primary: #3498db; /* Blue */
+    --secondary: #2ecc71; /* Green */
+    --tertiary: black; /* Red */
+    --light-dark: pink; /* Light Gray */
+    --dark:  black; /* Dark Gray */
     --border-radius: 0.3rem;
   }
   
@@ -15,7 +15,7 @@
     background-color: var(--primary);
     margin: 0;
     padding: 0;
-    font-family: "IBM Plex Sans", sans-serif;
+    font-family: "Alegre Sans", sans-serif;
     color: var(--dark);
     line-height: 1.5;
     font-size: 24px;
