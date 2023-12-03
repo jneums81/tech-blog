@@ -1,13 +1,13 @@
 <div class="text">
   <h2>{{title}}</h2>
   <p>{{description}}</p>
-  <p>Created by {{user.username}} on {{format_date date_created}}</p> 
+  <p>Created by {{user.username}} on {{format_date date_created}}</p> <!--changed user.name to user.username -->
 <div>
 <div>
 {{#if logged_in}}
 <form class="new-comment-form" data-blogid={{id}}>
   <div>
-    <textarea class="ml-5" id='comment_text' name="comment-body"></textarea>
+    <textarea class="ml-5" id='comment_description' name="comment-body"></textarea>
   </div>
   <div>
     <button class="button is-warning ml-5 mb-5" type="submit">Add Comment</button>
