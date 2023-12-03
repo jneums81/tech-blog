@@ -12,7 +12,7 @@ Comment.init(
       autoIncrement: true,
     },
  
-    comment_text: {
+    comment_description: {
       type: DataTypes.STRING,
     },
     date_created: {
