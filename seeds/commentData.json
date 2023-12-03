@@ -1,0 +1,17 @@
+[
+    {
+      "post_id": 1,
+      "comment_description": "Cybersecurtiy looks cool!",
+      "user_id": 1
+    },
+    {
+      "post_id": 2,
+      "comment_description": "It is a very hectic world!",
+      "user_id": 2
+    },
+    {
+      "post_id": 3,
+      "comment_description": "Hopefully, we can make the future bright!",
+      "user_id": 3
+    }
+  ]
