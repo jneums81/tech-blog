@@ -1,7 +1,7 @@
 :root {
-    --primary: #dacecc;
+    --primary: #ccdad1;
     --secondary: #dce9d5;
-    --tertiary: #858578;
+    --tertiary: #788585;
     --light-dark: #a1a0a1;
     --dark: #3b2320;
     --border-radius: 0.3rem;
@@ -154,8 +154,9 @@
   }
   
   .icon-success {
-    color: rgb(29, 255, 67);
+    color: rgb(29, 153, 255);
   }
+  /* CARDS */
   
   .card {
     margin: 0 0 20px 0;
@@ -369,6 +370,7 @@
       flex: 0 0 100%;
     }
   }
+  /* col-md */
   
   @media screen and (min-width: 768px) {
     .col-md-1 {
@@ -488,4 +490,5 @@
       flex: 0 0 100%;
     }
   }
+  
   
